@@ -1,0 +1,16 @@
+base,base.png,index
+dark1,Auto_Darkness1.png,auto
+dark2,Auto_Darkness2.png,auto
+wall1,Auto_WallUp_Cave1.png,auto
+wall2,Auto_WallUp_Cave2.png,auto
+wall3,Auto_WallUp_Cave3.png,auto
+wall4,Auto_WallUp_Cave4.png,auto
+wall5,Auto_WallUp_Cave5.png,auto
+wall6,Auto_WallUp_Dungeon1.png,auto
+wall7,Auto_WallUp_Forest2.png,auto
+forestSnow,Auto_ForestSnow.png,auto
+man,Protagonist_man.png,chara
+slime1,Monster_Slime1.png,chara
+slime3,Monster_Slime3.png,chara
+skelton,Monster_Skelton.png,chara
+bat1,Monster_Bat1.png,chara

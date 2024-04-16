@@ -1,0 +1,402 @@
+{
+    "設定": {
+        "upStep": "base-6-53",
+        "downStep": "base-6-51"
+    },
+    "洞窟入口": {
+        "typing": "どうくつ≪洞窟≫いりぐち≪入口≫",
+        "floorMin": 1,
+        "floorMax": 4,
+        "mapSizeX": 50,
+        "mapSizeY": 50,
+        "roomMinSize": [
+            3,
+            3
+        ],
+        "roomMaxSize": [
+            6,
+            6
+        ],
+        "minStep": 30,
+        "lightRange": 5,
+        "spawnProbability": 40,
+        "mapChip": {
+            "floor": "base-0-162",
+            "passage": "base-0-162",
+            "ceiling": "wall1",
+            "topLeft": "base-0-169",
+            "topMid": "base-1-169",
+            "topRight": "base-2-169",
+            "topPillar": "base-3-169",
+            "bottomLeft": "base-0-170",
+            "bottomMid": "base-1-170",
+            "bottomRight": "base-2-170",
+            "bottomPillar": "base-3-170"
+        },
+        "enemy": {
+            "緑スライム": 90,
+            "コウモリ": 10
+        }
+    },
+    "洞窟入口大広間": {
+        "typing": "どうくつ≪洞窟≫いりぐち≪入口≫おおひろま≪大広間≫",
+        "floorMin": 5,
+        "floorMax": 5,
+        "mapSizeX": 20,
+        "mapSizeY": 20,
+        "roomMinSize": [
+            7,
+            7
+        ],
+        "roomMaxSize": [
+            9,
+            9
+        ],
+        "minStep": 10,
+        "lightRange": 6,
+        "spawnProbability": 100,
+        "mapChip": {
+            "floor": "base-0-162",
+            "passage": "base-0-162",
+            "ceiling": "wall1",
+            "topLeft": "base-0-169",
+            "topMid": "base-1-169",
+            "topRight": "base-2-169",
+            "topPillar": "base-3-169",
+            "bottomLeft": "base-0-170",
+            "bottomMid": "base-1-170",
+            "bottomRight": "base-2-170",
+            "bottomPillar": "base-3-170"
+        },
+        "enemy": {
+            "緑スライム": 90,
+            "コウモリ": 10
+        }
+    },
+    "洞窟初層": {
+        "typing": "どうくつ≪洞窟≫しょそう≪初層≫",
+        "floorMin": 6,
+        "floorMax": 9,
+        "mapSizeX": 50,
+        "mapSizeY": 50,
+        "roomMinSize": [
+            4,
+            4
+        ],
+        "roomMaxSize": [
+            7,
+            7
+        ],
+        "minStep": 60,
+        "lightRange": 4,
+        "spawnProbability": 40,
+        "mapChip": {
+            "floor": "base-0-164",
+            "passage": "base-0-164",
+            "ceiling": "wall3",
+            "topLeft": "base-0-173",
+            "topMid": "base-1-173",
+            "topRight": "base-2-173",
+            "topPillar": "base-3-173",
+            "bottomLeft": "base-0-174",
+            "bottomMid": "base-1-174",
+            "bottomRight": "base-2-174",
+            "bottomPillar": "base-3-174"
+        },
+        "enemy": {
+            "緑スライム": 65,
+            "コウモリ": 20,
+            "青スライム": 10,
+            "スケルトン": 5
+        }
+    },
+    "洞窟初層大広間": {
+        "typing": "どうくつ≪洞窟≫しょそう≪初層≫おおひろま≪大広間≫",
+        "floorMin": 10,
+        "floorMax": 10,
+        "mapSizeX": 20,
+        "mapSizeY": 20,
+        "roomMinSize": [
+            7,
+            7
+        ],
+        "roomMaxSize": [
+            9,
+            9
+        ],
+        "minStep": 10,
+        "lightRange": 5,
+        "spawnProbability": 100,
+        "mapChip": {
+            "floor": "base-0-164",
+            "passage": "base-0-164",
+            "ceiling": "wall3",
+            "topLeft": "base-0-173",
+            "topMid": "base-1-173",
+            "topRight": "base-2-173",
+            "topPillar": "base-3-173",
+            "bottomLeft": "base-0-174",
+            "bottomMid": "base-1-174",
+            "bottomRight": "base-2-174",
+            "bottomPillar": "base-3-174"
+        },
+        "enemy": {
+            "緑スライム": 60,
+            "コウモリ": 20,
+            "青スライム": 10,
+            "スケルトン": 10
+        }
+    },
+    "洞窟中層": {
+        "typing": "どうくつ≪洞窟≫ちゅうそう≪中層≫",
+        "floorMin": 11,
+        "floorMax": 14,
+        "mapSizeX": 80,
+        "mapSizeY": 80,
+        "roomMinSize": [
+            3,
+            5
+        ],
+        "roomMaxSize": [
+            8,
+            7
+        ],
+        "minStep": 100,
+        "lightRange": 4,
+        "spawnProbability": 35,
+        "mapChip": {
+            "floor": "base-0-168",
+            "passage": "base-0-168",
+            "ceiling": "wall5",
+            "topLeft": "base-0-177",
+            "topMid": "base-1-177",
+            "topRight": "base-2-177",
+            "topPillar": "base-3-177",
+            "bottomLeft": "base-0-178",
+            "bottomMid": "base-1-178",
+            "bottomRight": "base-2-178",
+            "bottomPillar": "base-3-178"
+        },
+        "enemy": {
+            "スケルトン": 35,
+            "青スライム": 30,
+            "コウモリ": 20,
+            "緑スライム": 15
+        }
+    },
+    "洞窟中層大広間": {
+        "typing": "どうくつ≪洞窟≫ちゅうそう≪中層≫おおひろま≪大広間≫",
+        "floorMin": 15,
+        "floorMax": 15,
+        "mapSizeX": 30,
+        "mapSizeY": 30,
+        "roomMinSize": [
+            7,
+            7
+        ],
+        "roomMaxSize": [
+            9,
+            9
+        ],
+        "minStep": 10,
+        "lightRange": 5,
+        "spawnProbability": 100,
+        "mapChip": {
+            "floor": "base-0-168",
+            "passage": "base-0-168",
+            "ceiling": "wall5",
+            "topLeft": "base-0-177",
+            "topMid": "base-1-177",
+            "topRight": "base-2-177",
+            "topPillar": "base-3-177",
+            "bottomLeft": "base-0-178",
+            "bottomMid": "base-1-178",
+            "bottomRight": "base-2-178",
+            "bottomPillar": "base-3-178"
+        },
+        "enemy": {
+            "スケルトン": 50,
+            "青スライム": 30,
+            "コウモリ": 20
+        }
+    },
+    "洞窟深層": {
+        "typing": "どうくつ≪洞窟≫しんそう≪深層≫",
+        "floorMin": 16,
+        "floorMax": 19,
+        "mapSizeX": 100,
+        "mapSizeY": 100,
+        "roomMinSize": [
+            5,
+            3
+        ],
+        "roomMaxSize": [
+            8,
+            8
+        ],
+        "minStep": 120,
+        "lightRange": 4,
+        "spawnProbability": 35,
+        "mapChip": {
+            "floor": "base-4-162",
+            "passage": "base-4-162",
+            "ceiling": "wall2",
+            "topLeft": "base-0-171",
+            "topMid": "base-1-171",
+            "topRight": "base-2-171",
+            "topPillar": "base-3-171",
+            "bottomLeft": "base-0-172",
+            "bottomMid": "base-1-172",
+            "bottomRight": "base-2-172",
+            "bottomPillar": "base-3-172"
+        },
+        "enemy": {
+            "青スライム": 50,
+            "スケルトン": 30,
+            "コウモリ": 20
+        }
+    },
+    "洞窟深層大広間": {
+        "typing": "どうくつ≪洞窟≫しんそう≪深層≫おおひろま≪大広間≫",
+        "floorMin": 20,
+        "floorMax": 20,
+        "mapSizeX": 40,
+        "mapSizeY": 40,
+        "roomMinSize": [
+            7,
+            7
+        ],
+        "roomMaxSize": [
+            9,
+            9
+        ],
+        "minStep": 10,
+        "lightRange": 5,
+        "spawnProbability": 100,
+        "mapChip": {
+            "floor": "base-4-162",
+            "passage": "base-4-162",
+            "ceiling": "wall2",
+            "topLeft": "base-0-171",
+            "topMid": "base-1-171",
+            "topRight": "base-2-171",
+            "topPillar": "base-3-171",
+            "bottomLeft": "base-0-172",
+            "bottomMid": "base-1-172",
+            "bottomRight": "base-2-172",
+            "bottomPillar": "base-3-172"
+        },
+        "enemy": {
+            "スケルトン": 60,
+            "青スライム": 20,
+            "コウモリ": 20
+        }
+    },
+    "洞窟古代層": {
+        "typing": "どうくつ≪洞窟≫こだい≪古代≫そう≪層≫",
+        "floorMin": 21,
+        "floorMax": 24,
+        "mapSizeX": 140,
+        "mapSizeY": 140,
+        "roomMinSize": [
+            3,
+            4
+        ],
+        "roomMaxSize": [
+            8,
+            7
+        ],
+        "minStep": 130,
+        "lightRange": 4,
+        "spawnProbability": 35,
+        "mapChip": {
+            "floor": "base-0-166",
+            "passage": "base-0-166",
+            "ceiling": "wall6",
+            "topLeft": "base-0-179",
+            "topMid": "base-1-179",
+            "topRight": "base-2-179",
+            "topPillar": "base-3-179",
+            "bottomLeft": "base-0-180",
+            "bottomMid": "base-1-180",
+            "bottomRight": "base-2-180",
+            "bottomPillar": "base-3-180"
+        },
+        "enemy": {
+            "スケルトン": 50,
+            "青スライム": 20,
+            "コウモリ": 30
+        }
+    },
+    "洞窟古代層大広間": {
+        "typing": "どうくつ≪洞窟≫こだい≪古代≫そう≪層≫おおひろま≪大広間≫",
+        "floorMin": 25,
+        "floorMax": 25,
+        "mapSizeX": 40,
+        "mapSizeY": 40,
+        "roomMinSize": [
+            7,
+            7
+        ],
+        "roomMaxSize": [
+            9,
+            9
+        ],
+        "minStep": 10,
+        "lightRange": 5,
+        "spawnProbability": 100,
+        "mapChip": {
+            "floor": "base-0-166",
+            "passage": "base-0-166",
+            "ceiling": "wall6",
+            "topLeft": "base-0-179",
+            "topMid": "base-1-179",
+            "topRight": "base-2-179",
+            "topPillar": "base-3-179",
+            "bottomLeft": "base-0-180",
+            "bottomMid": "base-1-180",
+            "bottomRight": "base-2-180",
+            "bottomPillar": "base-3-180"
+        },
+        "enemy": {
+            "スケルトン": 60,
+            "青スライム": 20,
+            "コウモリ": 20
+        }
+    },
+    "天敵の森層": {
+        "typing": "てんてき≪点滴,天敵≫の//kもり≪森≫",
+        "floorMin": 26,
+        "floorMax": 1000,
+        "mapSizeX": 160,
+        "mapSizeY": 160,
+        "roomMinSize": [
+            4,
+            4
+        ],
+        "roomMaxSize": [
+            9,
+            9
+        ],
+        "minStep": 130,
+        "lightRange": 3,
+        "spawnProbability": 35,
+        "mapChip": {
+            "floor": "base-0-196",
+            "passage": "base-0-196",
+            "ceiling": "wall7",
+            "topLeft": "base-4-184",
+            "topMid": "base-5-184",
+            "topRight": "base-6-184",
+            "topPillar": "base-5-184",
+            "bottomLeft": "base-4-185",
+            "bottomMid": "base-5-185",
+            "bottomRight": "base-6-185",
+            "bottomPillar": "base-5-185"
+        },
+        "enemy": {
+            "青スライム": 80,
+            "コウモリ": 20
+        }
+    }
+}

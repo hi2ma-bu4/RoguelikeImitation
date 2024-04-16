@@ -1,0 +1,209 @@
+{
+    "TkJSON": {
+        "window": {
+            "title": "RoguelikeImitation - マニュアル",
+            "size": [
+                600,
+                400
+            ],
+            "minSize": [
+                600,
+                400
+            ],
+            "resizable": [
+                true,
+                true
+            ]
+        },
+        "styles": [
+            {
+                "name": "titleText1.TLabel",
+                "font": [
+                    "Meiryo",
+                    15
+                ]
+            },
+            {
+                "name": "titleText2.TLabel",
+                "font": [
+                    "Meiryo",
+                    10
+                ]
+            }
+        ]
+    },
+    "baseFrame": {
+        "grid": {
+            "row-2": {
+                "weight": 1
+            },
+            "column-1": {
+                "weight": 1
+            }
+        },
+        "widgets": [
+            {
+                "widType": "label",
+                "args": {
+                    "text": "マニュアル",
+                    "style": "titleText1.TLabel",
+                    "row": 0,
+                    "column": 0,
+                    "columnspan": 2
+                }
+            },
+            {
+                "widType": "label",
+                "args": {
+                    "text": "目次",
+                    "style": "titleText2.TLabel",
+                    "row": 1,
+                    "column": 0
+                }
+            }
+        ]
+    },
+    "treeFrame": {
+        "isChild": {
+            "row": 2,
+            "column": 0,
+            "sticky": "nsew"
+        },
+        "grid": {
+            "row-0": {
+                "weight": 1
+            },
+            "column-0": {
+                "weight": 1
+            }
+        },
+        "widgets": [
+            {
+                "widType": "treeview",
+                "bind": {
+                    "<<TreeviewSelect>>": "showTreeData"
+                },
+                "args": {
+                    "name": "dataTree",
+                    "show": [
+                        "tree"
+                    ],
+                    "dict_": {
+                        "実行について": [
+                            "_isOpen",
+                            "実行ファイル",
+                            "起動オプション",
+                            "起動後コマンド"
+                        ],
+                        "roguelike": [
+                            "_isOpen",
+                            "ゲーム概要",
+                            "操作方法",
+                            "探索範囲"
+                        ],
+                        "control": [
+                            "プログラム概要",
+                            "操作方法"
+                        ],
+                        "manual": [
+                            "プログラム概要",
+                            "操作方法"
+                        ],
+                        "採点": [
+                            "プログラム"
+                        ],
+                        "参考URL": {
+                            "_isOpen": true,
+                            "Python": [
+                                "並列処理",
+                                "その他"
+                            ],
+                            "pygame": [
+                                "その他"
+                            ],
+                            "ローグライク": [
+                                "マップ生成",
+                                "経路探索",
+                                "当たり判定",
+                                "レイキャスト",
+                                "レベル",
+                                "エフェクト",
+                                "その他"
+                            ],
+                            "tkinter": [
+                                "設置・配置",
+                                "Frame",
+                                "Widget",
+                                "Messagebox",
+                                "tk・ttk",
+                                "Variable",
+                                "Style・Font",
+                                "Event",
+                                "Focus",
+                                "その他"
+                            ],
+                            "素材": [
+                                "Image",
+                                "Font"
+                            ],
+                            "その他": [
+                                "神",
+                                "文字列圧縮"
+                            ]
+                        }
+                    },
+                    "row": 0,
+                    "column": 0,
+                    "sticky": "nsew"
+                }
+            },
+            {
+                "widType": "scrollbar",
+                "args": {
+                    "target": "dataTree",
+                    "row": 0,
+                    "column": 1,
+                    "sticky": "ns"
+                }
+            }
+        ]
+    },
+    "dataShowFrame": {
+        "isChild": {
+            "row": 2,
+            "column": 1,
+            "sticky": "nsew"
+        },
+        "parent": "baseFrame",
+        "grid": {
+            "row-0": {
+                "weight": 1
+            },
+            "column-0": {
+                "weight": 1
+            }
+        },
+        "widgets": [
+            {
+                "widType": "text",
+                "args": {
+                    "name": "dataShow",
+                    "wrap": "word",
+                    "state": "disabled",
+                    "row": 0,
+                    "column": 0,
+                    "sticky": "nsew"
+                }
+            },
+            {
+                "widType": "scrollbar",
+                "args": {
+                    "target": "dataShow",
+                    "row": 0,
+                    "column": 1,
+                    "sticky": "ns"
+                }
+            }
+        ]
+    }
+}

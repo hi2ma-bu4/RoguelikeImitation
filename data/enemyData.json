@@ -1,0 +1,47 @@
+{
+    "緑スライム": {
+        "hp": 5,
+        "speed": 10,
+        "attack": 2,
+        "exp": 2,
+        "discoveryRange": 4,
+        "drop": [],
+        "image": "slime3",
+        "animSpeed": 220
+    },
+    "青スライム": {
+        "hp": 10,
+        "speed": 15,
+        "attack": 3,
+        "exp": 4,
+        "discoveryRange": 5,
+        "drop": [],
+        "image": "slime1",
+        "animSpeed": 220
+    },
+    "スケルトン": {
+        "hp": 10,
+        "speed": 18,
+        "attack": 4,
+        "exp": 10,
+        "discoveryRange": 6,
+        "drop": [],
+        "image": "skelton",
+        "animSpeed": 220
+    },
+    "コウモリ": {
+        "hp": 8,
+        "speed": 30,
+        "attack": 3,
+        "exp": 20,
+        "discoveryRange": 10,
+        "drop": [
+            [
+                "謎肉",
+                33
+            ]
+        ],
+        "image": "bat1",
+        "animSpeed": 100
+    }
+}
